@@ -20,5 +20,6 @@ all questions.
 
 ## Visual
 
-![](Assets\code-quiz.png)
+[code-quiz](https://github.com/Z-Alfadl/Module-4-Challenge/assets/113720462/ff13e2ec-59ca-4b5f-baae-e52b9b0eb7fe)
+uiz.png)
 
