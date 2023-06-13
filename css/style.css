@@ -1,0 +1,39 @@
+#center {
+    text-align: center;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main {
+    text-align: center;
+}
+#opening, .score-card, .score-board  {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button {
+    color: white;
+    background-color: purple;
+    border: none;
+    margin: 2rem;
+}
+li {
+    background-color: purple;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    list-style-position: inside;
+    width: fit-content;
+}
+
+.score-card {
+    display: none;
+}
+.score-board {
+    display: none;
+}

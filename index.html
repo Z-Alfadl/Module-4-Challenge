@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <p id="timer">Time Left: -</p>
+        <a href="#">View Highscores</a>
+    </header>
+    <main>
+        <h1 id="challengeHeading">Coding Challenge Quizz</h1>
+        <div id="center">
+            <div id="opening">
+                <p id="intro">Try to answer the following questions within the time limit.
+                    Keep in mind that incorrect answers will penalize your score time by 10 seconds.
+                </p>
+                <button id="start-btn">START</button>
+            </div>
+            <div class="score-card">
+                <input type="text" id="input" placeholder="Please enter your initials">
+                <button id="save-btn">Submit</button>
+            </div>
+            <div class="score-board">
+                <h2>High Scores</h2>
+                <ol id="scoreboardlist"></ol>
+                <button id="reload">Go Back</button>
+                <button id="clear-all">Clear All Scores</button>
+            </div>
+        </div>
+
+
+    </main>
+</body>
+<script src="./js/script.js"></script>
+
+</html>
